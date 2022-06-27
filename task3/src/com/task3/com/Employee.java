@@ -12,7 +12,7 @@ public class Employee {
 	public static void main(String[] args) throws ClassNotFoundException, SQLException {
 		log.info("program is stated");
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Select Employee type 1.permanentemployee 2.parttimeemployee 3.contractemployee");
+		System.out.println("Select Employee type 1.Createemployee 2.Modifyemployee 3.Deleteemployee 4.ListEmployee");
 		int empType = sc.nextInt();
 		if (empType < 5 && empType > 0) {
 
